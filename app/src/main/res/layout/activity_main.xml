@@ -43,34 +43,34 @@
                 android:textSize="56sp" />
 
             <Button
+                android:id="@+id/threePtsA_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="threeA"
                 android:paddingBottom="8dp"
                 android:textColor="#E0F7FA"
                 android:text="+3 Points" />
 
             <Button
+                android:id="@+id/twoPtsA_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="twoA"
                 android:paddingBottom="8dp"
                 android:textColor="#E0F7FA"
                 android:text="+2 Points" />
 
             <Button
+                android:id="@+id/freethrowA_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="freeA"
                 android:textColor="#E0F7FA"
                 android:text="Free Throw" />
         </LinearLayout>
@@ -85,8 +85,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical"
-            tools:context=".MainActivity">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textViewB"
@@ -112,38 +111,39 @@
                 android:textSize="56sp" />
 
             <Button
+                android:id="@+id/threePtsB_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="threeB"
                 android:paddingBottom="8dp"
                 android:textColor="#E0F7FA"
                 android:text="+3 Points" />
 
             <Button
+                android:id="@+id/twoPtsB_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="twoB"
                 android:textColor="#E0F7FA"
                 android:paddingBottom="8dp"
                 android:text="+2 Points" />
 
             <Button
+                android:id="@+id/freethrowB_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:textColor="#E0F7FA"
-                android:onClick="freeB"
                 android:text="Free Throw" />
         </LinearLayout>
     </LinearLayout>
+
 
     <Button
         android:id="@+id/reset_btn"
